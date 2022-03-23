@@ -1,13 +1,14 @@
 from setuptools import setup
 
+
 setup(
-    name='project name',
-    version='0.2.1',
+    name='chain_evaluate',
+    version='0.1.0',
     # install_requres=['PyYAML'], 依存するライブラリ（必要な場合）
-    packages=["modules"],
+    packages=["chain_evaluation"],
     entry_points={
         'console_scripts': [
-            "oreore = modules.main:main"
+            "ore = chain_evaluation.main:egg"
         ]
     }
 )
