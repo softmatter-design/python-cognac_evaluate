@@ -25,7 +25,7 @@ def evaluate_nw():
 	# ポリマー鎖関連の特性情報を計算
 	ec = EvaluateChain(calc_cond, chain_list, target)
 	ec.eval_chain()
-	return
+
 
 ##############################
 # 対象となる udf ファイルを選択
