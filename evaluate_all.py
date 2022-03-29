@@ -5,6 +5,7 @@ import chain_evaluation
 ################################
 def main():
     chain_evaluation.evaluate_nw()
+    return
 
 if __name__ == '__main__':
     main()
