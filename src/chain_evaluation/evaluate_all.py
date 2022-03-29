@@ -3,9 +3,9 @@
 ################################
 import chain_evaluation
 ################################
-def main():
+def evaluate():
     chain_evaluation.evaluate_nw()
     return
 
 if __name__ == '__main__':
-    main()
+    evaluate()
