@@ -18,7 +18,7 @@ from CognacBasicAnalysis import *
 from CognacGeometryAnalysis import CognacGeometryAnalysis
 ################################################################################
 ################################################################################
-def evaluate_all():
+def evaluate_nw():
 	target = file_select()
 	#
 	calc_cond, chain_list = make_chain_list(target)

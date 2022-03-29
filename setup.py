@@ -1,14 +1,23 @@
-from setuptools import setup
+"""Minimal setup file for chain_evaluate."""
 
+from setuptools import setup, find_packages
 
 setup(
     name='chain_evaluate',
     version='0.1.0',
-    # install_requres=['PyYAML'], 依存するライブラリ（必要な場合）
-    packages=["chain_evaluation"],
+    license='proprietary',
+    description='Module Experiment',
+
+    author='hsasaki',
+    author_email='hsasaki@softmatters.net',
+    url='None.com',
+
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
+
     entry_points={
-        'console_scripts': [
-            "ore = chain_evaluation.main:egg"
+        "console_scripts": [
+          'evaluate_nw = evaluate_all:main'
         ]
     }
 )
